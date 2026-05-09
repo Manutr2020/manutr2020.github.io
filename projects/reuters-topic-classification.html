@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reuters Topic Classification | Manuel Trombetta</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../project-pages.css">
+</head>
+<body>
+
+<header class="project-hero">
+  <div class="project-nav">
+    <a href="../index.html">← Back to portfolio</a>
+  </div>
+
+  <div class="project-header">
+    <p class="project-tag">NLP · Topic Classification · Feature Engineering</p>
+    <h1>Reuters Topic Classification with Sequential Features</h1>
+    <p class="subtitle">
+      A supervised NLP project comparing bag-of-words features with bigrams,
+      trigrams and combined feature spaces on the Reuters corpus.
+    </p>
+  </div>
+</header>
+
+<main class="project-layout">
+  <img class="project-image" src="../assets/images/reuter-corpus.jpg" alt="Reuters corpus topic classification">
+
+  <section class="project-section">
+    <h2>Overview</h2>
+    <p>
+      This project investigates whether sequential information improves supervised
+      topic classification on the Reuters corpus. The analysis compares unigram
+      features with bigrams, trigrams and combined representations.
+    </p>
+  </section>
+
+  <section class="project-section">
+    <h2>Research Focus</h2>
+    <p>
+      The central question is whether short sequential patterns provide useful
+      information beyond traditional bag-of-words features in a keyword-driven
+      classification task.
+    </p>
+  </section>
+
+  <section class="project-section">
+    <h2>Methods</h2>
+    <ul>
+      <li>Reuters corpus preprocessing</li>
+      <li>Unigram, bigram and trigram feature extraction</li>
+      <li>Combined feature representation</li>
+      <li>Supervised topic classification</li>
+      <li>Model comparison through accuracy</li>
+    </ul>
+  </section>
+
+  <section class="project-section">
+    <h2>Main Findings</h2>
+    <p>
+      Unigram features remain a strong baseline. The best performance comes from
+      the combined unigram + bigram model after preprocessing, suggesting that
+      short domain-specific expressions such as economic collocations can improve
+      classification. Trigrams do not improve performance, probably because of
+      sparsity.
+    </p>
+  </section>
+
+  <section class="project-section">
+    <h2>Tools</h2>
+    <p>Python · scikit-learn · NLP preprocessing · supervised classification</p>
+
+    <div class="project-buttons">
+      <a class="project-button" href="https://github.com/manutr2020/reuters-topic-classification" target="_blank">View repository</a>
+      <a class="project-button secondary" href="../index.html">Back to portfolio</a>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>

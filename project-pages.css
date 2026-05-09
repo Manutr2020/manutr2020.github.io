@@ -1,0 +1,90 @@
+.project-hero {
+  background: var(--dark);
+  color: white;
+  padding: 28px 24px 80px;
+}
+
+.project-nav {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.project-nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.project-header {
+  max-width: 1100px;
+  margin: 80px auto 0;
+}
+
+.project-header h1 {
+  max-width: 900px;
+}
+
+.project-tag {
+  color: #c4b5fd;
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.project-layout {
+  max-width: 1100px;
+  margin: auto;
+  padding: 70px 24px;
+}
+
+.project-image {
+  width: 100%;
+  max-height: 520px;
+  object-fit: contain;
+  background: #f3f4f6;
+  border-radius: 24px;
+  padding: 16px;
+  margin-bottom: 40px;
+}
+
+.project-section {
+  background: white;
+  border-radius: 24px;
+  padding: 32px;
+  margin-bottom: 24px;
+  box-shadow: 0 20px 50px rgba(17, 24, 39, 0.08);
+}
+
+.project-section h2 {
+  margin-top: 0;
+}
+
+.project-section p,
+.project-section li {
+  color: var(--muted);
+}
+
+.project-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.project-button {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 999px;
+  background: var(--dark);
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.project-button.secondary {
+  background: white;
+  color: var(--dark);
+  border: 1px solid rgba(17,24,39,0.15);
+}

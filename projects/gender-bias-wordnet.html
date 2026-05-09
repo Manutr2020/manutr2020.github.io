@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gender Bias in WordNet | Manuel Trombetta</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../project-pages.css">
+</head>
+<body>
+
+<header class="project-hero">
+  <div class="project-nav">
+    <a href="../index.html">← Back to portfolio</a>
+  </div>
+
+  <div class="project-header">
+    <p class="project-tag">Linked Data · NLP · Semantics</p>
+    <h1>Gender Bias in Open English WordNet RDF</h1>
+    <p class="subtitle">
+      A quantitative and qualitative analysis of gender bias in the semantic
+      structure of Open English WordNet.
+    </p>
+  </div>
+</header>
+
+<main class="project-layout">
+  <img class="project-image" src="../assets/images/qualitative-analysis-results-wordnet.jpg" alt="Qualitative analysis results for gender bias in WordNet">
+
+  <section class="project-section">
+    <h2>Overview</h2>
+    <p>
+      This project examines whether masculine and feminine terms are represented
+      differently within Open English WordNet RDF, both structurally and
+      semantically.
+    </p>
+  </section>
+
+  <section class="project-section">
+    <h2>Research Question</h2>
+    <p>
+      Do masculine terms exhibit greater semantic richness than feminine terms,
+      and do the concepts associated with each gender differ systematically?
+    </p>
+  </section>
+
+  <section class="project-section">
+    <h2>Methods</h2>
+    <ul>
+      <li>Manual selection of gendered term pairs</li>
+      <li>Mapping of each term to a specific WordNet synset</li>
+      <li>SPARQL queries over WordNet RDF</li>
+      <li>Extraction of hypernyms, hyponyms and total relations</li>
+      <li>Semantic category assignment using GloVe embeddings</li>
+      <li>Manual validation of ambiguous classifications</li>
+    </ul>
+  </section>
+
+  <section class="project-section">
+    <h2>Main Findings</h2>
+    <p>
+      Masculine terms tend to be more connected and more hierarchically
+      developed in the network. Feminine terms are more often associated with
+      family-related and explicitly gender-marked categories, while masculine
+      terms show stronger links to authority and professional roles.
+    </p>
+  </section>
+
+  <section class="project-section">
+    <h2>Tools</h2>
+    <p>Python · RDF · SPARQL · R · GloVe · semantic analysis · WordNet</p>
+
+    <div class="project-buttons">
+      <a class="project-button" href="https://github.com/manutr2020/gender-bias-wordnet" target="_blank">View repository</a>
+      <a class="project-button secondary" href="../index.html">Back to portfolio</a>
+    </div>
+  </section>
+</main>
+
+</body>
+</html>
